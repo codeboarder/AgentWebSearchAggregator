@@ -1,4 +1,4 @@
-# Agent Web Search Aggregator
+# Foundry Agent Web Search Aggregator
 
 This project was created as a demo to show how a Microsoft Foundry agent can call a Web Search tool, while keeping the calls internally in a Bring-Your-Own-Vnet scenario. The delegated subnet for Microsoft Foundry is used for outbound traffic only for private tools.
 When Web Search is enabled, the agent requires Microsoft-managed public egress, which does not traverse customer UDRs or firewalls. Web Search calls can be routed to a search aggregator that only allows certain public endpoints and can be fronted by the Azure API Management service. Two sample public search endpoints are included: one for pubmed and one for bing.
