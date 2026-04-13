@@ -56,7 +56,7 @@ This repo **does not** provide:
 
 - Method: `POST`
 - URL (local): `http://localhost:7099/api/WebSearch`
-- Auth level: `Anonymous` (local/testing scenarios)
+- Auth level: `Anonymous` (local/testing scenarios **ONLY**)
 
 ### Request Body
 
