@@ -14,7 +14,7 @@ When Web Search is enabled, the agent requires Microsoft-managed public egress, 
 
 This repository also includes a small console app (`FunctionCaller`) to quickly invoke the function during local development.
 
-That this repo **does not** provide:
+This repo **does not** provide:
 
 - Authentication code
 - APIM implementation
