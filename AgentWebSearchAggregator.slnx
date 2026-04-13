@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AgentWebSearchAggregator.csproj" />
+  <Project Path="FunctionCaller/FunctionCaller.csproj" />
+</Solution>
