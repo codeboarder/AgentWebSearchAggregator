@@ -5,7 +5,7 @@ When Web Search is enabled, the agent requires Microsoft-managed public egress, 
 
 ## Overview
 
-`AgentWebSearchAggregator` is an HTTP-triggered Azure Functions app designed to act as a single egress/search broker. It provides:
+`AgentWebSearchAggregator` is an HTTP-triggered Azure Functions app designed to act as a single egress/search broker for Foundry Agents. It provides:
 
 - A single endpoint: `POST /api/WebSearch`
 - Provider routing by `source` (`pubmed` or `bing`)
@@ -13,6 +13,12 @@ When Web Search is enabled, the agent requires Microsoft-managed public egress, 
 - Provider-specific result retrieval and a common response envelope
 
 This repository also includes a small console app (`FunctionCaller`) to quickly invoke the function during local development.
+
+That this repo does not provide:
+
+- Authentication code
+- APIM implementation
+- Azure infrastructure
 
 ## Repository Structure
 
